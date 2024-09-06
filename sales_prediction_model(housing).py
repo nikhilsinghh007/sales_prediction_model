@@ -24,7 +24,7 @@ print("\nDataset statistics:")
 print(data.describe())
 
 # Identify the features and target variable
-target_column = 'Price'  # Assuming the target column is 'Price'
+target_column = 'price'
 feature_columns = data.columns.drop(target_column)
 
 # Separate features and target variable
