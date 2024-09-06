@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Load the dataset
-file_path = 'path/to/Car_sales.csv'
+file_path = 'Car_sales.csv'
 data = pd.read_csv(file_path)
 
 # Identify the features and target variable
@@ -28,7 +28,7 @@ for column in X.select_dtypes(include=['object']).columns:
     X.loc[:, column] = X[column].fillna(X[column].mode()[0])
 
 # Encode categorical variables
-categorical_features = X.select_dtypes(include(['object']).columns.tolist()
+categorical_features = X.select_dtypes(include=['object']).columns.tolist()
 encoder = OneHotEncoder(sparse_output=False, handle_unknown='ignore')
 preprocessor = ColumnTransformer(
     transformers=[
