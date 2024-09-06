@@ -2,7 +2,7 @@
 This project involves developing a regression model to predict future sales based on historical data. Accurate sales predictions enable better decision-making and resource allocation in areas such as inventory management, marketing, and budgeting.
 
 tasks:
-Gathered historical sales data.
+Gathered historical sales data. link: https://drive.google.com/drive/folders/1rCr2-FWLjTM69xxbYplYEKKmiOrMbMFt
 Preprocessed data by handling missing values and encoding categorical variables.
 Trained multiple regression models, including Linear Regression and Random Forest.
 Evaluated model performance and made predictions based on the best-performing model.
